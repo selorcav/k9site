@@ -1,0 +1,28 @@
+@import "mixin", "variables"
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap')
+
+html 
+  scroll-behavior: smooth
+
+
+h1, h2, h3, h4, h5, h6, .ubuntu
+  font-family: 'Ubuntu', sans-serif !important
+
+.primary-text
+  color: $primary
+.primary-bg
+  background-color: $primary !important
+
+.main-title
+  font-size: 3em
+  line-height: 1em
+  +for-phone-only
+    font-size: 2.5em
+.main-subtitle
+  font-size: 1.5em
+  line-height: 1.2em
+  +for-phone-only
+    font-size: 1.2em
+
+a
+  text-decoration: none !important
