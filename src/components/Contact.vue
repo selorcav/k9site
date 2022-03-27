@@ -1,7 +1,7 @@
 <template>
   <div class="pa-0">
     <v-row class="flex-column-reverse flex-md-row pa-0 ma-0">
-      <v-col class="primary-bg"  cols="12" md="5">
+      <v-col class="orange darken-4"  cols="12" md="5">
         <v-container class="mt-8 pa-10 pb-0">
           <div>
             <h4 class="white--text text-h4">Contacto</h4>
@@ -12,11 +12,11 @@
             </div>
             <div class="d-flex align-center my-4">
               <v-icon class="white--text">mdi-phone</v-icon> 
-              <p class="my-0 mx-4 ubuntu white--text text-body-1">+569 123 4567</p>
+              <a href="tel:+5691234567"><p class="my-0 mx-4 ubuntu white--text text-body-1">+569 123 4567</p></a>
             </div>
             <div class="d-flex align-center my-4">
               <v-icon class="white--text">mdi-email</v-icon> 
-              <p class="my-0 mx-4 ubuntu white--text text-body-1">K9@gmail.com</p>
+              <a href="mailto:K9@gmail.com"><p class="my-0 mx-4 ubuntu white--text text-body-1">K9@gmail.com</p></a>
             </div>
           </div>
           <div>
@@ -75,7 +75,7 @@
               <div class="d-flex justify-end px-8">
                 <v-btn
                   elevation="2"
-                  class="purple darken-4 white--text"
+                  class="orange darken-4 white--text rounded-pill"
                 >
                 Enviar
                 </v-btn>

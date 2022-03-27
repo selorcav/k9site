@@ -3,7 +3,7 @@
     <v-container >
       <h3 class="text-h4 text-md-h3 text-center mt-8 white--text ubuntu font-weight-medium team-title position-relative">Nuestro Equipo</h3>
       <v-row class="mt-16">
-        <v-col v-for="person in team" :key="person.id" cols="12" class="pa-16" md="4">
+        <v-col v-for="person in team" :key="person.id" cols="12" class="pa-8 pa-md-16" sm="4">
           <v-avatar
             color="white"
             width="100%"
@@ -16,8 +16,8 @@
           <p class="text-center mt-2 ubuntu white--text text-body-2"> {{person.descripcion}} </p>
           <a href="https://www.linkedin.com/"><v-img width="40" class="mx-auto" src="../assets/img/linkedin-logo.svg"/></a>
         </v-col>
-        
       </v-row>
+      
     </v-container>
   </div>
 </template>

@@ -23,7 +23,7 @@
               <v-expand-transition>
                 <div
                   v-if="hover"
-                  class="d-flex transition-fast-in-fast-out primary-bg bg-card-white darken-2 v-card--reveal white--text pa-4 text-center ubuntu text-caption text-sm-body-1 "
+                  class="d-flex transition-fast-in-fast-out orange darken-4 bg-card-white darken-2 v-card--reveal white--text pa-4 text-center ubuntu text-caption text-sm-body-1 "
                   style="height: 100%;"
                 >
                   {{service.texto}}
@@ -62,7 +62,7 @@ export default {
 <style lang="sass">
 @import "../assets/css/main"
 .our-services
-  background-image: url('../assets/img/bg-1.jpg')
+  background-image: url('../assets/img/bg-3-1.svg')
   min-height: 100vh
   width: 100%
   background-size: cover

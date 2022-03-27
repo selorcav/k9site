@@ -6,7 +6,7 @@
           <h1 class="main-title font-weight-bold primary-text ubuntu text-center text-md-start">Lorem ipsum dolor sit amet consectetur.</h1>
           <h2 class="main-subtitle mt-2 font-weight-regular text-center text-md-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate.</h2>
           <div class="d-flex">
-            <a href="#services"><v-btn dark class="primary-bg mx-auto mx-md-0 my-5">Nuestros servicios</v-btn></a>
+            <a href="#services"><v-btn dark class="orange darken-4 mx-auto mx-md-0 my-5 rounded-pill">Nuestros servicios</v-btn></a>
           </div>
         </v-col>
         <v-col cols="12" md="6">
