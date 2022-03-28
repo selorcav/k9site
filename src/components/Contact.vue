@@ -1,7 +1,7 @@
 <template>
   <div class="pa-0">
-    <v-row class="flex-column-reverse flex-md-row pa-0 ma-0">
-      <v-col class="orange darken-4"  cols="12" md="5">
+    <v-row class="pa-0 ma-0 orange darken-4 contact">
+      <v-col cols="12" md="5">
         <v-container class="mt-8 pa-10 pb-0">
           <div>
             <h4 class="white--text text-h4">Contacto</h4>
@@ -26,7 +26,7 @@
         </v-container>
       </v-col>
       <v-col cols="12" md="7">
-        <v-container class="contact pa-2 pa-md-12" >
+        <v-container class="pa-2 pa-md-12" >
           <v-card class="pa-4">
             <h3 class="text-h3 ubuntu text-center mt-8">¡Hablemos!</h3>
             <p class="text-body-1 text-center ubuntu mt-6">¿Tienes alguna idea y quieres comenzar un proyecto? ¡Contáctanos! </p>
@@ -123,7 +123,7 @@ export default {
 @import "../assets/css/main"
 .contact
   height: 100%
-  background-image: url('../assets/img/bg-14.jpg')
-  background-size: auto
+  background-image: url('../assets/img/bg-14.svg')
+  background-size: cover
 
 </style>

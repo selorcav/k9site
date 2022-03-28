@@ -3,7 +3,7 @@
     <v-container >
       <h3 class="text-h4 text-md-h3 text-center mt-8 white--text ubuntu font-weight-medium team-title position-relative">Nuestros Clientes</h3>
       <p class="white--text"></p>
-      <v-row class="mt-16">
+      <v-row class="mt-16 justify-center">
         <v-col v-for="client in clients" :key="client.id" cols="12" class="pa-8 pa-md-16" sm="4">
           <v-img :src="client.foto"></v-img>
           <p class="my-4 white--text font-italic text-center">"{{client.mensaje}}"</p>

@@ -4,7 +4,7 @@
     <main-banner id="home" />
     <our-services id="services" />
     <our-mission id="aboutus" />
-    <our-team />
+    <our-team id="ourteam" />
     <clients />
     <contact id="contact"/>
   </v-app>

@@ -1,7 +1,7 @@
 <template>
   <div class="our-team primary-bg">
     <v-container >
-      <h3 class="text-h4 text-md-h3 text-center mt-8 white--text ubuntu font-weight-medium team-title position-relative">Nuestro Equipo</h3>
+      <h3 class="text-h4 text-md-h3 text-center mt-16 white--text ubuntu font-weight-medium team-title position-relative">Nuestro Equipo</h3>
       <v-row class="mt-16">
         <v-col v-for="person in team" :key="person.id" cols="12" class="pa-8 pa-md-16" sm="4">
           <v-avatar
